@@ -9,8 +9,7 @@ public class Product extends Order {
        private Double price;
        private Long id;
 
-       public Product(List<Product> product, Customer customer, String name, String category, Double price) {
-              super(product, customer);
+       public Product( String name, String category, double price) {
               this.name = name;
               this.category = category;
               this.price = price;
